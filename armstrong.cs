@@ -22,15 +22,15 @@ public class Armstrong
             result += (int)Math.Pow(digit, power);
             temp /= 10;
         }
-
+        Console.WriteLine("The Result of a given number is: "+result);
         if (result == num)
         {
-            Console.WriteLine("Armstrong");
+            Console.WriteLine("Hence the number is Armstrong");
         }
 
         else
         {
-            Console.WriteLine("Not a Armstrong");
+            Console.WriteLine("Hence number is Not a Armstrong");
         }
 
     }
