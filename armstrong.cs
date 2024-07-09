@@ -10,7 +10,7 @@ public class Armstrong
         int result = 0;
         int power;
 
-        Console.WriteLine("Enter a Number");
+        Console.WriteLine("Enter a Number: ");
         num = int.Parse(Console.ReadLine());
 
         temp = num;
