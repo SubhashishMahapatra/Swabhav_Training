@@ -10,7 +10,12 @@ namespace StarPattern
     {
         static void Main(string[] args)
         {
-            PrintStarPattern(5);
+            Console.Write("No. of Stars: ");
+            int StarNumber = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Pattern of " + StarNumber + " Star is: ");
+
+            PrintStarPattern(StarNumber);
         }
         static void PrintStarPattern(int rows)
         {
@@ -31,3 +36,6 @@ namespace StarPattern
         }
     }
 }
+
+
+
