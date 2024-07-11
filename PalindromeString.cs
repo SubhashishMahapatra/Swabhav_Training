@@ -13,6 +13,7 @@ namespace PalindromeString
             Console.WriteLine("Enter a String: ");
             string name = Console.ReadLine();
             string reversedString = ReverseString(name);
+            Console.WriteLine("The Reverse of the given string is: "+reversedString);
 
             if (name == reversedString)
             {
