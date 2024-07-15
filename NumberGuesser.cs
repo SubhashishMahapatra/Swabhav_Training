@@ -11,7 +11,7 @@ namespace GuessingTheNumberGame
             int randomValue = random.Next(1, 101); 
             int guessCount = 0;
 
-            Console.WriteLine("Welcome to Guess Number Game \nYou Will Be Asked To Guess A Number To Win The Game");
+            Console.WriteLine("Welcome to Guess Number Game" "\nYou Will Be Asked To Guess A Number To Win The Game");
 
             Console.WriteLine("Guess the Number (between 1 and 100): ");
 
