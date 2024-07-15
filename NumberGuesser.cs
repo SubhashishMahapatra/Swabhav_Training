@@ -8,10 +8,10 @@ namespace GuessingTheNumberGame
         static void Main(string[] args)
         {
             Random random = new Random();
-            int randomValue = random.Next(1, 21); 
+            int randomValue = random.Next(1, 101); 
             int guessCount = 0;
 
-            Console.WriteLine("Guess the Number (between 1 and 20): ");
+            Console.WriteLine("Guess the Number (between 1 and 100): ");
 
             int guessValue;
             while (true)
